@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <title>filter image</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="items">
+          <span class="item active" data-name="all">All</span>
+          <span class="item" data-name="Bag">Bag</span>
+          <span class="item" data-name="shoe">shoe</span>
+          <span class="item" data-name="watche">watche</span>
+          <span class="item" data-name="camera">camera</span>
+          <span class="item" data-name="headphone">headphone</span>
+        </div>
+      </nav>
+        <!-- image filter-->
+        <div class="gallery">
+            <div class="image" data-name="Bag"><img src="./image-montre/image-montre1.jpg" alt=""></div>
+            <div class="image" data-name="Bag"><img src="./image-montre/image-montre2.jpg" alt=""></div>
+            <div class="image" data-name="watche"><img src="./image-montre/image-montre3.jpg" alt=""></div>
+            <div class="image" data-name="watche"><img src="./image-montre/image-montre4.jpg" alt=""></div>
+            <div class="image" data-name="Bag"><img src="./image-montre/image-montre5.jpg" alt=""></div>
+            <div class="image" data-name="Bag"><img src="./image-montre/image-montre6.jpg" alt=""></div>
+            <div class="image" data-name="headphone"><img src="./image-montre/image-montre/image-montre7.jpg" alt=""></div>
+            <div class="image" data-name="camera"><img src="./image-montre/image-montre/image-montre8.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="prevwos-box">
+        <div class="header">
+            <p>image category: <span class="imgcategory">nan</span></p>
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+        </div>
+       
+        <div class="imageselected">
+            <img src="./image-montre/image-montre4.jpg" alt="">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
